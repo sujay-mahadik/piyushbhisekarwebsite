@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+  overflow:hidden;
+  background: url("../img/pre-launch-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Product Sans;
+}
+.bg{
+  height: 100%;
+  background: url("../img/comingsoon.png") no-repeat center fixed;
+  background-size: cover;
+}
+.vidcontainer{
+  overflow: hidden;
+}
+#vid {
+  max-width: 100%;
+  height: auto;
+}
+.t1, .t2{
+  display: block;
+}
+.t1{
+  font-size: 2em;
+  padding-top: .5em;
+}
+.t2{
+  font-size: 1.5em;
+  padding-top: .3em;
+  padding-bottom: 1em;
+}
+.t3{
+  display: none;
+  font-size: 1.5em;
+  padding-top: .3em;
+  padding-bottom: 1em;
+}
+
+.introCard {
+  position: absolute;
+  bottom: 5%;
+  width: 200px;
+  height: 150px;
+  transform:translateX(-10%);
+  left: 80%;
+  padding: 1em 3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+
+}
+.tixButton{
+  z-index: 100;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: 10%;
+  padding:0.3em 1.2em;
+  margin: 0.3em 1.2em;
+  background-color: #4eb5f1;
+  text-decoration: none;
+  color: white;
+  border-radius: 2em;
+  font-size: 1.2em;
+  transition: ease .2s;
+}
+.tixButton:hover {
+  background-color: #305266;
+}
+
+@media only screen and (min-width : 720px) and (max-width : 1080px) {
+  .introCard {
+    position: absolute;
+    bottom: 5%;
+    transform:translateX(-20%);
+    left: 75%;
+    padding: 1em 3em;
+    z-index: 99;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+  .introCard {
+    position: absolute;
+    bottom: 15%;
+    width: 90%;
+    transform:translateX(-50%);
+    left: 50%;
+    padding: 1em 3em;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 99;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+  }
+  .t2{
+    font-size: 1.5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+  }
+  .t3{
+    display:block;
+  }
+}
