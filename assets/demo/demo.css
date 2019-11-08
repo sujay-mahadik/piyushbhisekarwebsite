@@ -372,6 +372,7 @@
     height: 640px;
     overflow: hidden;
   }
+
   .parallax .parallax-image img {
     height: 100%;
     width: auto;
@@ -435,10 +436,12 @@
 }
 
 @media (max-width: 768px) {
+
   .btn,
   .btn-morphing {
     margin-bottom: 10px;
   }
+
   .parallax .motto {
     top: 170px;
     margin-top: 0;
@@ -585,7 +588,7 @@
 }
 
 .creative-tim-logo {
-  max-width: 140px;
+  max-width: 275px;
   top: -2px;
   position: relative;
 }
