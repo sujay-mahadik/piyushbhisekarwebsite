@@ -3241,18 +3241,23 @@ blockquote small {
   0% {
     transform: scale(0.75);
   }
+
   20% {
     transform: scale(1);
   }
+
   40% {
     transform: scale(0.75);
   }
+
   60% {
     transform: scale(1);
   }
+
   80% {
     transform: scale(0.75);
   }
+
   100% {
     transform: scale(0.75);
   }
@@ -3451,18 +3456,23 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   0% {
     transform: scale(0.75);
   }
+
   20% {
     transform: scale(1);
   }
+
   40% {
     transform: scale(0.75);
   }
+
   60% {
     transform: scale(1);
   }
+
   80% {
     transform: scale(0.75);
   }
+
   100% {
     transform: scale(0.75);
   }
@@ -3675,6 +3685,7 @@ License - nucleoapp.com/license/
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -3684,6 +3695,7 @@ License - nucleoapp.com/license/
   0% {
     -moz-transform: rotate(0deg);
   }
+
   100% {
     -moz-transform: rotate(360deg);
   }
@@ -3697,6 +3709,7 @@ License - nucleoapp.com/license/
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -6653,6 +6666,21 @@ License - nucleoapp.com/license/
   z-index: 1;
 }
 
+.just-piyush {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .page-header .motto {
   text-align: left;
   z-index: 3;
@@ -6874,11 +6902,23 @@ License - nucleoapp.com/license/
   animation: cloudLoop 80s linear infinite;
 }
 
+.just-piyush {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
+}
+
 @keyframes cloudLoop {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+
   100% {
     -webkit-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
@@ -7024,6 +7064,7 @@ License - nucleoapp.com/license/
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
+
   /* IE10+ CSS styles go here */
   .page-header .content-center {
     position: absolute;
@@ -7031,6 +7072,7 @@ License - nucleoapp.com/license/
     left: 50%;
     transform: translate(-50%, -75%);
   }
+
   .page-header .presentation-title {
     background: none !important;
   }
@@ -7073,31 +7115,40 @@ License - nucleoapp.com/license/
   #cd-vertical-nav {
     display: none !important;
   }
+
   .coloured-cards .card-big-shadow {
     margin: 0 auto;
   }
+
   .register-page .page-header {
     max-height: 2000px;
   }
+
   .section-testimonials .our-clients {
     margin-top: 0 !important;
   }
+
   .navbar-transparent {
     background-color: rgba(0, 0, 0, 0.45);
   }
+
   .register .page-header {
     max-height: fit-content;
   }
+
   .form-group.has-danger {
     margin-bottom: 30px;
   }
+
   body {
     position: relative;
     font-size: 12px;
   }
+
   h6 {
     font-size: 1em;
   }
+
   .navbar .container {
     left: 0;
     width: 100%;
@@ -7108,13 +7159,16 @@ License - nucleoapp.com/license/
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     position: relative;
   }
+
   .navbar .navbar-nav .dropdown-menu {
     height: 400px;
     overflow-y: scroll;
   }
+
   .demo-header .motto {
     padding-top: 30% !important;
   }
+
   .navbar-toggle .icon-bar {
     display: block;
     position: relative;
@@ -7124,16 +7178,19 @@ License - nucleoapp.com/license/
     border-radius: 1px;
     margin: 0 auto;
   }
+
   .navbar-header .navbar-toggle {
     margin-top: 12px;
     width: 40px;
     height: 40px;
   }
+
   .bar1,
   .bar2,
   .bar3 {
     outline: 1px solid transparent;
   }
+
   .bar1 {
     top: 0px;
     -webkit-animation: topbar-back 500ms linear 0s;
@@ -7143,9 +7200,11 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   .bar2 {
     opacity: 1;
   }
+
   .bar3 {
     bottom: 0px;
     -webkit-animation: bottombar-back 500ms linear 0s;
@@ -7155,6 +7214,7 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   .toggled .bar1 {
     top: 6px;
     -webkit-animation: topbar-x 500ms linear 0s;
@@ -7164,9 +7224,11 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   .toggled .bar2 {
     opacity: 0;
   }
+
   .toggled .bar3 {
     bottom: 6px;
     -webkit-animation: bottombar-x 500ms linear 0s;
@@ -7176,234 +7238,293 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   @keyframes topbar-x {
     0% {
       top: 0px;
       transform: rotate(0deg);
     }
+
     45% {
       top: 6px;
       transform: rotate(145deg);
     }
+
     75% {
       transform: rotate(130deg);
     }
+
     100% {
       transform: rotate(135deg);
     }
   }
+
   @-webkit-keyframes topbar-x {
     0% {
       top: 0px;
       -webkit-transform: rotate(0deg);
     }
+
     45% {
       top: 6px;
       -webkit-transform: rotate(145deg);
     }
+
     75% {
       -webkit-transform: rotate(130deg);
     }
+
     100% {
       -webkit-transform: rotate(135deg);
     }
   }
+
   @-moz-keyframes topbar-x {
     0% {
       top: 0px;
       -moz-transform: rotate(0deg);
     }
+
     45% {
       top: 6px;
       -moz-transform: rotate(145deg);
     }
+
     75% {
       -moz-transform: rotate(130deg);
     }
+
     100% {
       -moz-transform: rotate(135deg);
     }
   }
+
   @keyframes topbar-back {
     0% {
       top: 6px;
       transform: rotate(135deg);
     }
+
     45% {
       transform: rotate(-10deg);
     }
+
     75% {
       transform: rotate(5deg);
     }
+
     100% {
       top: 0px;
       transform: rotate(0);
     }
   }
+
   @-webkit-keyframes topbar-back {
     0% {
       top: 6px;
       -webkit-transform: rotate(135deg);
     }
+
     45% {
       -webkit-transform: rotate(-10deg);
     }
+
     75% {
       -webkit-transform: rotate(5deg);
     }
+
     100% {
       top: 0px;
       -webkit-transform: rotate(0);
     }
   }
+
   @-moz-keyframes topbar-back {
     0% {
       top: 6px;
       -moz-transform: rotate(135deg);
     }
+
     45% {
       -moz-transform: rotate(-10deg);
     }
+
     75% {
       -moz-transform: rotate(5deg);
     }
+
     100% {
       top: 0px;
       -moz-transform: rotate(0);
     }
   }
+
   @keyframes bottombar-x {
     0% {
       bottom: 0px;
       transform: rotate(0deg);
     }
+
     45% {
       bottom: 6px;
       transform: rotate(-145deg);
     }
+
     75% {
       transform: rotate(-130deg);
     }
+
     100% {
       transform: rotate(-135deg);
     }
   }
+
   @-webkit-keyframes bottombar-x {
     0% {
       bottom: 0px;
       -webkit-transform: rotate(0deg);
     }
+
     45% {
       bottom: 6px;
       -webkit-transform: rotate(-145deg);
     }
+
     75% {
       -webkit-transform: rotate(-130deg);
     }
+
     100% {
       -webkit-transform: rotate(-135deg);
     }
   }
+
   @-moz-keyframes bottombar-x {
     0% {
       bottom: 0px;
       -moz-transform: rotate(0deg);
     }
+
     45% {
       bottom: 6px;
       -moz-transform: rotate(-145deg);
     }
+
     75% {
       -moz-transform: rotate(-130deg);
     }
+
     100% {
       -moz-transform: rotate(-135deg);
     }
   }
+
   @keyframes bottombar-back {
     0% {
       bottom: 6px;
       transform: rotate(-135deg);
     }
+
     45% {
       transform: rotate(10deg);
     }
+
     75% {
       transform: rotate(-5deg);
     }
+
     100% {
       bottom: 0px;
       transform: rotate(0);
     }
   }
+
   @-webkit-keyframes bottombar-back {
     0% {
       bottom: 6px;
       -webkit-transform: rotate(-135deg);
     }
+
     45% {
       -webkit-transform: rotate(10deg);
     }
+
     75% {
       -webkit-transform: rotate(-5deg);
     }
+
     100% {
       bottom: 0px;
       -webkit-transform: rotate(0);
     }
   }
+
   @-moz-keyframes bottombar-back {
     0% {
       bottom: 6px;
       -moz-transform: rotate(-135deg);
     }
+
     45% {
       -moz-transform: rotate(10deg);
     }
+
     75% {
       -moz-transform: rotate(-5deg);
     }
+
     100% {
       bottom: 0px;
       -moz-transform: rotate(0);
     }
   }
+
   @-webkit-keyframes fadeIn {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
   }
+
   @-moz-keyframes fadeIn {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
   }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
   }
+
   .navbar-nav {
     margin: 1px -15px;
   }
+
   .navbar-nav .open .dropdown-menu>li>a {
     padding: 15px 15px 5px 50px;
   }
+
   .navbar-nav .open .dropdown-menu>li:first-child>a {
     padding: 5px 15px 5px 50px;
   }
+
   .navbar-nav .open .dropdown-menu>li:last-child>a {
     padding: 15px 15px 25px 50px;
   }
+
   [class*="navbar-"] .navbar-nav>li>a,
   [class*="navbar-"] .navbar-nav>li>a:hover,
   [class*="navbar-"] .navbar-nav>li>a:focus,
@@ -7416,6 +7537,7 @@ License - nucleoapp.com/license/
   [class*="navbar-"] .navbar-nav .navbar-nav .open .dropdown-menu>li>a:active {
     color: white;
   }
+
   [class*="navbar-"] .navbar-nav>li>a:not(.btn),
   [class*="navbar-"] .navbar-nav>li>a:hover,
   [class*="navbar-"] .navbar-nav>li>a:focus,
@@ -7425,73 +7547,94 @@ License - nucleoapp.com/license/
     opacity: .7;
     background: transparent;
   }
+
   [class*="navbar-"] .navbar-nav.navbar-nav .open .dropdown-menu>li>a:active {
     opacity: 1;
   }
+
   [class*="navbar-"] .navbar-nav .dropdown>a:hover .caret {
     border-bottom-color: #777;
     border-top-color: #777;
   }
+
   [class*="navbar-"] .navbar-nav .dropdown>a:active .caret {
     border-bottom-color: white;
     border-top-color: white;
   }
+
   .footer .footer-nav,
   .footer .credits {
     margin: 0 auto;
   }
+
   #typography .typography-line .note {
     margin-left: 7px !important;
   }
+
   .dropdown-menu {
     display: none;
   }
+
   .navbar-fixed-top {
     -webkit-backface-visibility: hidden;
   }
+
   .social-line .btn {
     margin: 0 0 10px 0;
   }
+
   .subscribe-line .form-control {
     margin: 0 0 10px 0;
   }
+
   .social-line.pull-right {
     float: none;
   }
+
   .footer nav.pull-left {
     float: none !important;
   }
+
   .footer:not(.footer-big) nav>ul li {
     float: none;
   }
+
   .social-area.pull-right {
     float: none !important;
   }
+
   .form-control+.form-control-feedback {
     margin-top: 5px;
   }
+
   .form-control.form-control-danger.no-border {
     margin-top: 15px;
   }
+
   .navbar-toggle:hover,
   .navbar-toggle:focus {
     background-color: transparent !important;
   }
+
   .btn.dropdown-toggle {
     margin-bottom: 0;
   }
+
   .media-post .author {
     width: 25%;
     float: none !important;
     display: block;
     margin: 0 auto 10px;
   }
+
   .media-post .media-body {
     width: 100%;
   }
+
   .modal-footer .btn-simple {
     padding: 15px;
   }
+
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -7501,34 +7644,43 @@ License - nucleoapp.com/license/
     -ms-overflow-style: -ms-autohiding-scrollbar;
     -webkit-overflow-scrolling: touch;
   }
+
   .typography-line {
     padding-left: 100px !important;
   }
+
   .projects-1 .project-pills .nav.nav-pills {
     display: block !important;
   }
+
   .projects-1 .project-pills .nav.nav-pills .nav-item:first-child .nav-link {
     border-radius: 12px 12px 0 0 !important;
     margin-left: -1px;
   }
+
   .projects-1 .project-pills .nav.nav-pills .nav-item.active:first-child .nav-link {
     border-radius: 12px 12px 0 0 !important;
     margin-left: -1px;
   }
+
   .projects-1 .project-pills .nav.nav-pills .nav-item:last-child .nav-link {
     border-radius: 0 0 12px 12px !important;
     margin-left: -1px;
   }
+
   .testimonials-2 .testimonials-people img,
   .section-testimonials .testimonials-people img {
     display: none !important;
   }
+
   .presentation-page .components-container .card {
     margin-bottom: 40px !important;
   }
+
   .btn-wd {
     min-width: 280px;
   }
+
   .presentation-page .title-brand .type {
     font-size: 16px;
     transform: translateY(-28px);
@@ -7536,121 +7688,154 @@ License - nucleoapp.com/license/
     -moz-transform: translateY(-28px);
     -o-transform: translateY(-28px);
   }
+
   .presentation-page .section-cards,
   .presentation-page .section-components {
     overflow: hidden;
   }
+
   .presentation-page .section-cards .first-card,
   .presentation-page .section-components .first-card {
     top: 750px !important;
   }
+
   .presentation-page .section-cards .first-card .grid__link,
   .presentation-page .section-components .first-card .grid__link {
     max-width: 200px !important;
   }
+
   .presentation-page .section-cards .fourth-card,
   .presentation-page .section-components .fourth-card {
     top: 940px !important;
   }
+
   .presentation-page .section-cards .fourth-card .grid__link,
   .presentation-page .section-components .fourth-card .grid__link {
     max-width: 200px !important;
   }
+
   .presentation-page .section-cards .fifth-card,
   .presentation-page .section-components .fifth-card {
     top: 950px !important;
     left: 220px !important;
   }
+
   .presentation-page .section-cards .fifth-card .grid__link,
   .presentation-page .section-components .fifth-card .grid__link {
     max-width: 200px !important;
   }
+
   .presentation-page .section-cards .sixth-card,
   .presentation-page .section-components .sixth-card {
     top: 1335px !important;
     left: 220px !important;
   }
+
   .presentation-page .section-cards .sixth-card .grid__link,
   .presentation-page .section-components .sixth-card .grid__link {
     max-width: 200px !important;
   }
+
   .presentation-page .section-cards .seventh-card,
   .presentation-page .section-components .seventh-card {
     top: 1155px !important;
   }
+
   .presentation-page .section-cards .seventh-card .grid__link,
   .presentation-page .section-components .seventh-card .grid__link {
     max-width: 200px !important;
   }
+
   .presentation-page .section-content .image-container .add-animation {
     max-height: 250px !important;
     max-width: 180px !important;
   }
+
   .presentation-page .section-components .image-container .components-macbook {
     max-width: 580px !important;
     max-height: 400px !important;
   }
+
   .presentation-page .section-components .image-container .social-img,
   .presentation-page .section-components .image-container .share-btn-img {
     display: none;
   }
+
   .presentation-page .section-components .title {
     margin-top: -100px !important;
   }
+
   .presentation-page .section-examples {
     padding-top: 0 !important;
     margin-top: 10px !important;
   }
+
   .presentation-page .section-icons .icons-nucleo .nc-icon:not(.ninth-left-icon):not(.seventh-left-icon):not(.third-left-icon) {
     display: none !important;
   }
+
   .bootstrap-datetimepicker-widget {
     visibility: visible !important;
   }
+
   .presentation-page .fog-low {
     margin-bottom: -35px;
   }
+
   .presentation-page .presentation-title {
     font-size: 5em;
   }
+
   .presentation-page .presentation-subtitle {
     margin-top: 40px;
   }
+
   .presentation-page .title-brand {
     max-width: 450px;
   }
+
   .presentation-page .title-brand .type {
     font-size: 16px;
   }
+
   .demo-icons ul li {
     width: 20%;
     float: left;
   }
+
   .info.info-separator:after {
     display: none;
   }
+
   .pricing-5 .choose-plan {
     text-align: center;
   }
+
   .pricing-5 .choose-plan .nav.nav-pills {
     display: inline-flex;
   }
+
   .pricing-5 .description {
     text-align: center;
   }
+
   .page-carousel .carousel-inner [class*='col-md'] {
     margin-left: 0 !important;
   }
+
   .page-carousel .right.carousel-control {
     margin-right: 0 !important;
   }
+
   .page-carousel .left.carousel-control {
     margin-left: 0 !important;
   }
+
   .subscribe-line .form-control {
     border: 1px solid #DDDDDD;
     padding-left: 10px;
   }
+
   .subscribe-line .btn {
     margin: 0 auto;
   }
@@ -7685,14 +7870,17 @@ License - nucleoapp.com/license/
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
   .navbar-collapse ul {
     position: relative;
     z-index: 3;
     height: 95%;
   }
+
   .navbar-collapse .navbar-nav>.nav-item:last-child {
     border-bottom: 0;
   }
+
   .navbar-collapse .navbar-nav>.nav-item>.nav-link {
     margin: 0px 0px;
     color: #9A9A9A !important;
@@ -7702,10 +7890,12 @@ License - nucleoapp.com/license/
     line-height: 1.5em;
     padding: 15px 0;
   }
+
   .navbar-collapse .navbar-nav>.nav-item>.nav-link:hover,
   .navbar-collapse .navbar-nav>.nav-item>.nav-link:active {
     color: #403D39 !important;
   }
+
   .navbar-collapse::after {
     top: 0;
     left: 0;
@@ -7718,6 +7908,7 @@ License - nucleoapp.com/license/
     content: "";
     z-index: 1;
   }
+
   .navbar-collapse.has-image::after {
     top: 0;
     left: 0;
@@ -7729,6 +7920,7 @@ License - nucleoapp.com/license/
     content: "";
     z-index: 1;
   }
+
   .nav-open .navbar-collapse {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
@@ -7736,6 +7928,7 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(0px);
     transform: translateX(0px);
   }
+
   .nav-open .wrapper {
     left: 0;
     -webkit-transform: translateX(-230px);
@@ -7744,6 +7937,7 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
+
   .nav-open .navbar-translate {
     -webkit-transform: translateX(-230px);
     -moz-transform: translateX(-230px);
@@ -7751,12 +7945,15 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
+
   .wrapper .navbar-collapse {
     display: none;
   }
+
   .register-page.full-screen .page-header .container {
     margin-top: 30%;
   }
+
   .dropdown.show .dropdown-menu,
   .dropdown .dropdown-menu {
     border: 0;
@@ -7766,6 +7963,7 @@ License - nucleoapp.com/license/
     width: auto;
     height: auto;
   }
+
   .dropdown.show .dropdown-menu .dropdown-item:hover,
   .dropdown.show .dropdown-menu .dropdown-item:focus,
   .dropdown .dropdown-menu .dropdown-item:hover,
@@ -7773,27 +7971,32 @@ License - nucleoapp.com/license/
     background-color: transparent;
     border-radius: 0;
   }
+
   .dropdown.show .dropdown-menu .dropdown-item a:hover,
   .dropdown.show .dropdown-menu .dropdown-item a:focus,
   .dropdown .dropdown-menu .dropdown-item a:hover,
   .dropdown .dropdown-menu .dropdown-item a:focus {
     color: #403D39;
   }
+
   .dropdown.show .dropdown-menu:before,
   .dropdown.show .dropdown-menu:after,
   .dropdown .dropdown-menu:before,
   .dropdown .dropdown-menu:after {
     display: none;
   }
+
   .dropdown .dropdown-menu {
     display: none;
   }
+
   .dropdown.show .dropdown-menu {
     display: block;
     position: static;
     float: none;
     background: transparent !important;
   }
+
   .navbar-translate {
     width: 100%;
     position: relative;
@@ -7813,6 +8016,7 @@ License - nucleoapp.com/license/
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
   #bodyClick {
     height: 100%;
     width: 100%;
@@ -7825,6 +8029,7 @@ License - nucleoapp.com/license/
     z-index: 1029;
     overflow-x: hidden;
   }
+
   .wrapper {
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -7834,37 +8039,47 @@ License - nucleoapp.com/license/
     left: 0;
     background-color: white;
   }
+
   .container-cards [class*="col-md-"] {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .container-cards .social-buttons {
     z-index: 1;
   }
+
   .full-screen.login .page-header {
     display: grid;
   }
+
   .comments.media-area .media {
     display: block;
   }
+
   .comments.media-area .media .media-body {
     margin-left: 2em;
   }
+
   .comments.media-area .media .media-body p {
     margin-top: 15px;
   }
+
   .section-navbars .navbar-collapse,
   .section-navigation .navbar-collapse,
   #navbar-dropdown .navbar-collapse {
     display: none !important;
   }
+
   .header-4 video {
     width: auto;
     height: 100vh;
   }
+
   .subscribe-line .btn.btn-block {
     width: auto;
   }
+
   .form-control+.form-control-feedback {
     padding-left: 0 !important;
   }
@@ -7899,9 +8114,11 @@ License - nucleoapp.com/license/
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
   .burger-menu .navbar-collapse .navbar-nav .nav-item:last-child {
     border-bottom: 0;
   }
+
   .burger-menu .navbar-collapse .navbar-nav {
     height: 100%;
     z-index: 2;
@@ -7916,6 +8133,7 @@ License - nucleoapp.com/license/
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .burger-menu .navbar-collapse::after {
     top: 0;
     left: 0;
@@ -7928,6 +8146,7 @@ License - nucleoapp.com/license/
     content: "";
     z-index: 1;
   }
+
   .burger-menu .navbar-collapse.has-image::after {
     top: 0;
     left: 0;
@@ -7939,10 +8158,12 @@ License - nucleoapp.com/license/
     content: "";
     z-index: 1;
   }
+
   .burger-menu .navbar .container .navbar-toggler {
     display: block;
     margin-top: 20px;
   }
+
   .burger-menu .navbar-translate {
     width: 100%;
     position: relative;
@@ -7957,6 +8178,7 @@ License - nucleoapp.com/license/
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
+
   .burger-menu .wrapper {
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -7966,9 +8188,11 @@ License - nucleoapp.com/license/
     left: 0;
     background-color: white;
   }
+
   .burger-menu .body .navbar-collapse.collapse {
     height: 100vh !important;
   }
+
   .burger-menu .navbar-collapse:before,
   .burger-menu .navbar-collapse:after,
   .burger-menu .navbar-nav:before,
@@ -7976,6 +8200,7 @@ License - nucleoapp.com/license/
     display: table;
     content: " ";
   }
+
   .nav-open .burger-menu .navbar-collapse.collapse {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
@@ -7983,6 +8208,7 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(0px);
     transform: translateX(0px);
   }
+
   .nav-open .burger-menu .wrapper {
     left: 0;
     -webkit-transform: translateX(-230px);
@@ -7991,6 +8217,7 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
+
   .nav-open .burger-menu .navbar-translate {
     -webkit-transform: translateX(-230px);
     -moz-transform: translateX(-230px);
@@ -7998,6 +8225,7 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
+
   .burger-menu .dropdown.show .dropdown-menu,
   .burger-menu .dropdown .dropdown-menu {
     border: 0;
@@ -8006,6 +8234,7 @@ License - nucleoapp.com/license/
     box-shadow: none;
     width: auto;
   }
+
   .burger-menu .dropdown.show .dropdown-menu .dropdown-item:hover,
   .burger-menu .dropdown.show .dropdown-menu .dropdown-item:focus,
   .burger-menu .dropdown .dropdown-menu .dropdown-item:hover,
@@ -8013,24 +8242,29 @@ License - nucleoapp.com/license/
     background-color: transparent;
     border-radius: 0;
   }
+
   .burger-menu .dropdown.show .dropdown-menu .dropdown-item a:hover,
   .burger-menu .dropdown.show .dropdown-menu .dropdown-item a:focus,
   .burger-menu .dropdown .dropdown-menu .dropdown-item a:hover,
   .burger-menu .dropdown .dropdown-menu .dropdown-item a:focus {
     color: #403D39;
   }
+
   .burger-menu .dropdown.show .dropdown-menu:before,
   .burger-menu .dropdown.show .dropdown-menu:after,
   .burger-menu .dropdown .dropdown-menu:before,
   .burger-menu .dropdown .dropdown-menu:after {
     display: none;
   }
+
   .burger-menu .dropdown .dropdown-menu {
     display: none;
   }
+
   .burger-menu .dropdown.show .dropdown-menu {
     display: block;
   }
+
   .lightbox .modal-dialog {
     width: 960px;
   }
@@ -8041,6 +8275,7 @@ License - nucleoapp.com/license/
     position: relative;
     z-index: 1;
   }
+
   .register-page .page-header .container {
     margin-top: 150px;
   }
@@ -8051,17 +8286,21 @@ License - nucleoapp.com/license/
     max-width: 190px;
     max-height: 270px;
   }
+
   .presentation-page .section-content .image-container .info-img {
     max-width: 190px;
     max-height: 270px;
     left: -20%;
   }
+
   .presentation-page .section-content .section-description {
     margin-top: 0 !important;
   }
+
   .presentation-page .section-components .components-macbook {
     left: -75px !important;
   }
+
   .presentation-page .section-cards .codrops-header {
     margin-top: 10px !important;
   }
@@ -8077,15 +8316,19 @@ License - nucleoapp.com/license/
   .presentation-page .section-header .card {
     min-height: 230px;
   }
+
   #cards .card-profile {
     margin-top: 50px;
   }
+
   .pricing-5 .title {
     text-align: center;
   }
+
   .presentation-page .presentation-title {
     font-size: 4em;
   }
+
   .presentation-page .title-brand .type {
     font-size: 12px;
     padding: 4px 7px;
@@ -8095,15 +8338,18 @@ License - nucleoapp.com/license/
     margin-top: 20px;
     right: 2px;
   }
+
   .presentation-page .section-cards .codrops-header .description {
     max-width: 220px;
   }
+
   .register-page .page-header .container .info:first-of-type {
     margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 1367px) {
+
   .presentation-page .section-cards,
   .presentation-page .section-components {
     overflow: hidden;
@@ -8115,6 +8361,7 @@ License - nucleoapp.com/license/
     position: relative;
     z-index: 1;
   }
+
   .section-sections .section-cols .row:first-of-type {
     margin-top: 50px;
     margin-right: -120px;
@@ -8125,16 +8372,19 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-80px);
     transform: translateX(-80px);
   }
+
   .section-sections .section-cols .row:nth-of-type(2) {
     margin-left: -100px;
     margin-right: -15px;
     transform: translateX(80px);
   }
+
   .section-sections .section-cols .row:nth-of-type(3) {
     margin-right: -120px;
     margin-left: 0px;
     transform: translateX(-120px);
   }
+
   .section-sections .section-cols .row:nth-of-type(4) {
     margin-right: -100px;
     margin-left: -15px;
@@ -8154,6 +8404,7 @@ License - nucleoapp.com/license/
   .presentation-page .presentation-title {
     font-size: 7em;
   }
+
   .presentation-page .title-brand {
     max-width: 650px;
   }
@@ -8166,19 +8417,24 @@ License - nucleoapp.com/license/
 }
 
 @media screen and (max-width: 374px) {
+
   .footer.footer-big .copyright .pull-left,
   .footer.footer-big .copyright .pull-right {
     float: none !important;
   }
+
   .full-screen.login .card.card-register {
     margin-bottom: 20px;
   }
+
   .full-screen.login .demo-footer {
     margin-left: -15px;
   }
+
   .about-us .header-wrapper {
     height: auto !important;
   }
+
   .presentation-page .section-content .image-container .area-img {
     max-width: 170px !important;
   }
